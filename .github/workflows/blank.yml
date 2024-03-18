@@ -35,8 +35,7 @@ jobs:
       - name: Run Python Command
         run: |
           import platform
-          print
-          (platform.processor())
+          print(platform.processor())
         shell: python
 
       # Runs a set of commands using the runners shell
