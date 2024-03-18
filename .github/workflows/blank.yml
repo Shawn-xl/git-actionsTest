@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, Action!
+        run: eccho Hello, Action!
 
       - name: Run a one-line Script
         run: echo Hello, zzAction!
