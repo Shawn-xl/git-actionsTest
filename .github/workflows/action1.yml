@@ -1,4 +1,4 @@
-name: ActionTest
+name: RunJSTest
 on:
   push:
     branches: [ "main" ]
@@ -18,7 +18,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: simple JS actions
         uses: actions/hello-world-javascript-action@v1.1
-          with: 
+          with： 
             who-to-greet: Xiaolong
       - name: Log Greeting Time
          run: import datetime 
